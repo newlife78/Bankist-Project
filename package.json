@@ -1,0 +1,24 @@
+{
+  "name": "advanced-bankist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html --port=1234",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "New Life",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-transformer-html-datasrc": "^1.3.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.30.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
